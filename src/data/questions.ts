@@ -40,7 +40,36 @@ const questions: Question[] = [
   { id: 1043, class: 8, question: "What is the main function of a computer mouse?", options: ["To type", "To display images", "To move the cursor", "To print documents"], correctAnswer: "To move the cursor" },
   { id: 1044, class: 8, question: "What is a website?", options: ["A software", "A program", "A collection of web pages", "A computer part"], correctAnswer: "A collection of web pages" },
   { id: 1045, class: 8, question: "What is the purpose of the 'Save' button?", options: ["To print the document", "To close the document", "To save your work", "To share the document"], correctAnswer: "To save your work" },
-  // (Add 8 more for Class 8...)
+  {id : 1046 , class : 8 , question : 'Which of the following is NOT a computer component?' , options: ['Monitor' , 'Keyboard' , 'Mouse' , 'Printer' ] , correctAnswer : 'Monitor' },
+    { id: 1047, class: 8, question: "Which part of the computer is responsible for performing calculations and processing data?", options: ["CPU", "Monitor", "Keyboard", "RAM"], correctAnswer: "CPU" },
+
+  { id: 1048, class: 8, question: "Which storage device is used to store data permanently?", options: ["RAM", "Hard Disk", "Cache", "ROM"], correctAnswer: "Hard Disk" },
+
+  { id: 1049, class: 8, question: "Which of the following is an example of application software?", options: ["Windows", "MS Paint", "BIOS", "Linux"], correctAnswer: "MS Paint" },
+
+  { id: 1050, class: 8, question: "What is the main function of an antivirus program?", options: ["Increase internet speed", "Detect and remove viruses", "Improve graphics", "Boost processor speed"], correctAnswer: "Detect and remove viruses" },
+
+  { id: 1051, class: 8, question: "Which key is used to delete a file permanently in Windows?", options: ["Ctrl + D", "Shift + Delete", "Alt + F4", "Ctrl + X"], correctAnswer: "Shift + Delete" },
+
+  { id: 1052, class: 8, question: "Which one is an example of a secondary storage device?", options: ["RAM", "Hard Drive", "Cache", "Processor"], correctAnswer: "Hard Drive" },
+
+  { id: 1053, class: 8, question: "What is the name of the software that acts as an interface between the user and the hardware?", options: ["Operating System", "Application Software", "Utility Software", "Driver Software"], correctAnswer: "Operating System" },
+
+  { id: 1054, class: 8, question: "Which of the following is a unit of memory?", options: ["Byte", "Hertz", "Pixel", "Megapixel"], correctAnswer: "Byte" },
+
+  { id: 1055, class: 8, question: "Which of these is a widely used operating system?", options: ["Google Chrome", "Windows", "MS Word", "PowerPoint"], correctAnswer: "Windows" },
+
+  { id: 1056, class: 8, question: "Which of the following is an example of an input device?", options: ["Monitor", "Mouse", "Speaker", "Printer"], correctAnswer: "Mouse" },
+
+  { id: 1057, class: 8, question: "Which programming language is mainly used for web development?", options: ["Java", "Python", "HTML", "C++"], correctAnswer: "HTML" },
+
+  { id: 1058, class: 8, question: "What does 'WWW' stand for?", options: ["World Wide Web", "Web World Wide", "Wide World Web", "Wireless Web World"], correctAnswer: "World Wide Web" },
+
+  { id: 1059, class: 8, question: "What is the full form of USB?", options: ["Universal Serial Bus", "United System Board", "Uniform Storage Backup", "Universal Storage Bus"], correctAnswer: "Universal Serial Bus" },
+
+  { id: 1060, class: 8, question: "Which of the following is an example of a cloud storage service?", options: ["Google Drive", "Microsoft Word", "Adobe Photoshop", "Windows Media Player"], correctAnswer: "Google Drive" },
+
+  { id: 1061, class: 8, question: "Which command is used to copy files in Windows?", options: ["Ctrl + X", "Ctrl + C", "Ctrl + V", "Ctrl + Z"], correctAnswer: "Ctrl + C" },
 
   // =================== Class 9 Questions (IT Syllabus - Advanced Topics) =================== 
   { id: 12, class: 9, question: "Which of the following is an Open Source Operating System?", options: ["Windows", "Linux", "MacOS", "iOS"], correctAnswer: "Linux" },
@@ -64,7 +93,35 @@ const questions: Question[] = [
   { id: 30, class: 8, question: "Which device is used to store data permanently?", options: ["RAM", "Hard Disk", "CD", "Monitor"], correctAnswer: "Hard Disk" },
   { id: 31, class: 8, question: "Which of the following is NOT a hardware component?", options: ["Monitor", "Keyboard", "Operating System", "CPU"], correctAnswer: "Operating System" },
   { id: 32, class: 8, question: "What does GUI stand for in the context of computer software?", options: ["Graphical User Interface", "General User Interface", "Generalized User Interface", "Graphic Utility Interface"], correctAnswer: "Graphical User Interface" },
+  { id: 33, class: 8, question: "Which of the following is a type of volatile memory?", options: ["Hard Disk", "SSD", "RAM", "CD-ROM"], correctAnswer: "RAM" },
 
+  { id: 34, class: 8, question: "Which of these is a programming language?", options: ["Windows", "Photoshop", "Python", "Google Chrome"], correctAnswer: "Python" },
+
+  { id: 35, class: 8, question: "Which key is used to refresh a web page in most browsers?", options: ["F1", "F5", "Ctrl + R", "Shift + R"], correctAnswer: "F5" },
+
+  { id: 36, class: 8, question: "What does URL stand for?", options: ["Uniform Resource Locator", "Universal Reference Link", "Uniform Reference Link", "Universal Resource Locator"], correctAnswer: "Uniform Resource Locator" },
+
+  { id: 37, class: 8, question: "Which device is used to connect a computer to a network?", options: ["Scanner", "Router", "Speaker", "Printer"], correctAnswer: "Router" },
+
+  { id: 38, class: 8, question: "What is the function of a firewall in a computer network?", options: ["Speed up the internet", "Protect against viruses", "Block unauthorized access", "Enhance graphics"], correctAnswer: "Block unauthorized access" },
+
+  { id: 39, class: 8, question: "Which company developed the Windows operating system?", options: ["Apple", "Google", "Microsoft", "IBM"], correctAnswer: "Microsoft" },
+
+  { id: 40, class: 8, question: "Which of these is an example of a web browser?", options: ["Linux", "Google Chrome", "MS Excel", "Windows"], correctAnswer: "Google Chrome" },
+
+  { id: 4545, class: 8, question: "Which programming language is used for Android app development?", options: ["Java", "Swift", "Python", "C++"], correctAnswer: "Java" },
+
+  { id: 42234, class: 8, question: "Which of the following is a feature of cloud computing?", options: ["Physical storage", "Local backup", "On-demand access", "CD storage"], correctAnswer: "On-demand access" },
+
+  { id: 432394, class: 8, question: "Which shortcut key is used to undo an action in most software?", options: ["Ctrl + X", "Ctrl + Z", "Ctrl + C", "Ctrl + V"], correctAnswer: "Ctrl + Z" },
+
+  { id: 44523, class: 8, question: "Which of the following is an example of a search engine?", options: ["Facebook", "YouTube", "Google", "Instagram"], correctAnswer: "Google" },
+
+  { id: 452564, class: 8, question: "Which of these is a correct file extension for an image?", options: [".txt", ".mp3", ".jpg", ".exe"], correctAnswer: ".jpg" },
+
+  { id: 462384, class: 8, question: "Which component of a computer is considered the 'brain'?", options: ["Monitor", "Keyboard", "CPU", "Hard Drive"], correctAnswer: "CPU" },
+
+  { id: 472347, class: 8, question: "Which of the following is an example of an optical storage device?", options: ["USB Drive", "CD", "Hard Disk", "Floppy Disk"], correctAnswer: "CD" },
 
   // (Add 14 more for Class 9...)
 
