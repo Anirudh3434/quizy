@@ -4,7 +4,7 @@ export interface Question {
   question: string;
   options: string[];
   correctAnswer: string;
-  
+  imageUrl? : string
 }
 
 const questions: Question[] = [
@@ -16,21 +16,27 @@ const questions: Question[] = [
   { id: 5, class: 8, question: "What is the function of RAM in a computer?", options: ["Stores data permanently", "Processes data", "Stores temporary data", "Runs the operating system"], correctAnswer: "Stores temporary data" },
   { id: 6, class: 8, question: "What type of storage is a USB flash drive?", options: ["Primary Storage", "Secondary Storage", "Cloud Storage", "Cache Memory"], correctAnswer: "Secondary Storage" },
   { id: 7, class: 8, question: "Which of the following is an example of hardware?", options: ["MS Word", "Windows OS", "Keyboard", "Google Chrome"], correctAnswer: "Keyboard" },
+  
+  { id: 10110, class: 8, question: "Name the Computer Component?", options: ["Scanner", "Printer", "Monitor", "Keyboard"], correctAnswer: "Printer" , imageUrl: 'https://5.imimg.com/data5/SELLER/Default/2021/3/PA/ZQ/LT/121439134/epson-colore-printer-inkjet-1000x1000.jpg' },
+
   { id: 8, class: 8, question: "What is the full form of HTTP?", options: ["Hyper Text Transfer Protocol", "Hyperlink Text Transfer Protocol", "Hyperlink Transmission Process", "Hyper Transfer Technology Protocol"], correctAnswer: "Hyper Text Transfer Protocol" },
   { id: 9, class: 8, question: "Which of the following is a web browser?", options: ["MS Excel", "Google Chrome", "Windows OS", "Notepad"], correctAnswer: "Google Chrome" },
   { id: 10, class: 8, question: "What does GUI stand for?", options: ["Graphical User Interface", "General User Interaction", "Global User Interface", "Graphical Utility Interface"], correctAnswer: "Graphical User Interface" },
   { id: 11, class: 8, question: "Which key is used to refresh a web page?", options: ["F5", "Ctrl + R", "Alt + F4", "Esc"], correctAnswer: "F5" },
   { id: 12, class: 8, question: "What is the primary function of an operating system?", options: ["Run applications", "Manage hardware resources", "Provide antivirus protection", "Connect to the Internet"], correctAnswer: "Manage hardware resources" },
    { id: 1033, class: 8, question: "Which of the following is used to move the cursor on a computer screen?", options: ["Keyboard", "Mouse", "Monitor", "Speaker"], correctAnswer: "Mouse" },
+   {id: 1000 , class :  8 , question : 'Name of the Computer Component' , options: ['Cabinet' , 'Mouse' , 'Keyboard' , 'SMPS' ] , correctAnswer : 'Cabinet' , imageUrl: 'https://5.imimg.com/data5/ML/KX/MY-29474863/cpu-cabinet-1000x1000.jpg'},
   { id: 1034, class: 8, question: "Which device is used to print documents?", options: ["Scanner", "Printer", "Monitor", "Keyboard"], correctAnswer: "Printer" },
   { id: 1035, class: 8, question: "What does a keyboard do?", options: ["Prints documents", "Moves the cursor", "Types text", "Displays images"], correctAnswer: "Types text" },
   { id: 1036, class: 8, question: "Which of these is a computer?", options: ["TV", "Smartphone", "Printer", "Tablet"], correctAnswer: "Smartphone" },
   { id: 1037, class: 8, question: "Which of the following is used to connect your computer to the internet?", options: ["Monitor", "Router", "Keyboard", "Speaker"], correctAnswer: "Router" },
   { id: 1038, class: 8, question: "Which of the following is used to watch videos on a computer?", options: ["Web Browser", "Microsoft Word", "Spreadsheet", "PowerPoint"], correctAnswer: "Web Browser" },
   { id: 1039, class: 8, question: "Which of these is not a part of a computer?", options: ["Mouse", "Monitor", "Keyboard", "Phone"], correctAnswer: "Phone" },
+  {id: 1000 , class :  8 , question : 'Name of the Computer Component' , options: ['Mouse' , 'Speaker' , 'Keyboard' , 'SMPS' ] , correctAnswer : 'SMPS' , imageUrl: 'https://5.imimg.com/data5/FR/EH/MY-38302533/computer-smps-1000x1000.jpg'},
   { id: 1040, class: 8, question: "What does the 'Esc' key on a keyboard do?", options: ["Enters text", "Cancels an action", "Moves the cursor", "Prints a document"], correctAnswer: "Cancels an action" },
   { id: 1041, class: 8, question: "Which of the following is an example of a search engine?", options: ["Google", "Windows", "Excel", "PowerPoint"], correctAnswer: "Google" },
   { id: 1042, class: 8, question: "Which device is used to hear sound from a computer?", options: ["Speaker", "Keyboard", "Monitor", "Printer"], correctAnswer: "Speaker" },
+  
   { id: 1043, class: 8, question: "What is the main function of a computer mouse?", options: ["To type", "To display images", "To move the cursor", "To print documents"], correctAnswer: "To move the cursor" },
   { id: 1044, class: 8, question: "What is a website?", options: ["A software", "A program", "A collection of web pages", "A computer part"], correctAnswer: "A collection of web pages" },
   { id: 1045, class: 8, question: "What is the purpose of the 'Save' button?", options: ["To print the document", "To close the document", "To save your work", "To share the document"], correctAnswer: "To save your work" },

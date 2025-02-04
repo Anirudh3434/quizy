@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Question } from '../data/questions';
+import React, { useState } from "react";
+import { Question } from "../data/questions";
 
 interface QuizCardProps {
   question: Question;
@@ -11,17 +11,15 @@ export const QuizCard: React.FC<QuizCardProps> = ({ question, onAnswer, currentT
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [isAnswerLocked, setIsAnswerLocked] = useState(false);
 
-  const gradientClass = currentTeam === 'Team 1' 
-    ? 'from-blue-600 to-blue-400'
-    : 'from-red-600 to-red-400';
+  const gradientClass =
+    currentTeam === "Team 1" ? "from-blue-600 to-blue-400" : "from-red-600 to-red-400";
 
   const handleAnswerClick = (answer: string) => {
     if (isAnswerLocked) return;
-    
+
     setSelectedAnswer(answer);
     setIsAnswerLocked(true);
 
-    // Delay to show the color feedback
     setTimeout(() => {
       onAnswer(answer);
       setSelectedAnswer(null);
@@ -47,9 +45,18 @@ export const QuizCard: React.FC<QuizCardProps> = ({ question, onAnswer, currentT
 
   return (
     <div className="bg-white/90 backdrop-blur-sm p-8 rounded-2xl shadow-2xl transform transition-all hover:scale-[1.02]">
-      <div className={`inline-block px-6 py-2 rounded-full bg-gradient-to-r ${gradientClass} text-lg font-bold text-white mb-6 shadow-lg`}>
+      <div
+        className={`inline-block px-6 py-2 rounded-full bg-gradient-to-r ${gradientClass} text-lg font-bold text-white mb-6 shadow-lg`}
+      >
         {currentTeam}'s Turn
       </div>
+      {question.imageUrl && (
+  <img 
+    src={question.imageUrl} 
+    alt="Question Image" 
+    className="w-full max-w-sm mx-auto mb-4 rounded-lg shadow-md"
+  />
+)}
       <h2 className="text-2xl font-bold mb-6 text-gray-800">{question.question}</h2>
       <div className="grid grid-cols-1 gap-4">
         {question.options.map((option) => (
@@ -59,7 +66,7 @@ export const QuizCard: React.FC<QuizCardProps> = ({ question, onAnswer, currentT
             disabled={isAnswerLocked}
             className={`p-4 text-left rounded-xl transition-all transform hover:scale-[1.02] border text-gray-700 font-medium shadow-md
               ${getOptionStyle(option)}
-              ${isAnswerLocked ? 'cursor-default' : 'hover:shadow-lg'}
+              ${isAnswerLocked ? "cursor-default" : "hover:shadow-lg"}
             `}
           >
             {option}
