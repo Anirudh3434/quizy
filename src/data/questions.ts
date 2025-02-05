@@ -71,13 +71,11 @@ const questions: Question[] = [
 
   { id: 1061, class: 8, question: "Which command is used to copy files in Windows?", options: ["Ctrl + X", "Ctrl + C", "Ctrl + V", "Ctrl + Z"], correctAnswer: "Ctrl + C" },
 
-  // =================== Class 9 Questions (IT Syllabus - Advanced Topics) =================== 
-  { id: 12, class: 9, question: "Which of the following is an Open Source Operating System?", options: ["Windows", "Linux", "MacOS", "iOS"], correctAnswer: "Linux" },
-  { id: 13, class: 9, question: "What does HTML stand for?", options: ["Hyper Transfer Markup Language", "High Text Machine Learning", "Hyper Text Markup Language", "High-Tech Machine Language"], correctAnswer: "Hyper Text Markup Language" },
-  { id: 14, class: 9, question: "Which of the following is NOT a programming language?", options: ["Python", "Java", "HTML", "C++"], correctAnswer: "HTML" },
-  { id: 15, class: 9, question: "Which of the following is an example of spreadsheet software?", options: ["MS Word", "MS PowerPoint", "MS Excel", "MS Paint"], correctAnswer: "MS Excel" },
-  { id: 16, class: 9, question: "Which of the following is used to create presentations?", options: ["MS Word", "MS PowerPoint", "MS Excel", "MS Access"], correctAnswer: "MS PowerPoint" },
-  { id: 17, class: 9, question: "What is the full form of IP in networking?", options: ["Internet Protocol", "Intelligent Processor", "Internet Program", "Interconnection Protocol"], correctAnswer: "Internet Protocol" },
+
+
+  
+
+
    { id: 18, class: 8, question: "Which of the following is an example of hardware?", options: ["MS Word", "Keyboard", "Windows OS", "Google Chrome"], correctAnswer: "Keyboard" },
   { id: 19, class: 8, question: "What is the primary function of the CPU?", options: ["To input data", "To store data", "To process data", "To display data"], correctAnswer: "To process data" },
   { id: 20, class: 8, question: "Which of the following is an example of software?", options: ["Monitor", "Printer", "Microsoft Word", "Keyboard"], correctAnswer: "Microsoft Word" },
@@ -125,6 +123,107 @@ const questions: Question[] = [
 
   // (Add 14 more for Class 9...)
 
+
+  { id: 10000, class: 9, question: "Which of the following is used to create text documents?", options: ["MS Excel", "MS Word", "MS PowerPoint", "MS Paint"], correctAnswer: "MS Word" },
+  
+  { id: 10001, class: 9, question: "What is the default file extension for Microsoft Word documents?", options: [".txt", ".doc", ".docx", ".pdf"], correctAnswer: ".docx" },
+  
+  { id: 10002, class: 9, question: "Which feature in MS Word is used to check spelling and grammar?", options: ["Spellcheck", "Format", "Insert", "View"], correctAnswer: "Spellcheck" },
+  
+  { id: 10003, class: 9, question: "What is the keyboard shortcut to save a document?", options: ["Ctrl+S", "Ctrl+P", "Ctrl+C", "Ctrl+V"], correctAnswer: "Ctrl+S" },
+  
+  { id: 10004, class: 9, question: "Which tab contains the option to insert tables in MS Word?", options: ["Home", "Insert", "Page Layout", "View"], correctAnswer: "Insert" },
+  
+  { id: 10005, class: 9, question: "What is the default file extension for PowerPoint presentations?", options: [".ppt", ".pptx", ".pdf", ".doc"], correctAnswer: ".pptx" },
+  
+  { id: 10006, class: 9, question: "Which view in PowerPoint shows thumbnails of all slides?", options: ["Normal View", "Slide Sorter", "Reading View", "Slide Show"], correctAnswer: "Slide Sorter" },
+  
+  { id: 10007, class: 9, question: "What is the term for special effects used when moving between slides?", options: ["Animations", "Transitions", "Effects", "Motions"], correctAnswer: "Transitions" },
+  
+  { id: 10008, class: 9, question: "Which feature allows you to add movement to objects in PowerPoint?", options: ["Transitions", "Animations", "Effects", "Motions"], correctAnswer: "Animations" },
+  
+  { id: 10009, class: 9, question: "What is the keyboard shortcut to start a slideshow from the beginning?", options: ["F5", "F1", "F7", "F12"], correctAnswer: "F5" },
+  
+  { id: 10010, class: 9, question: "In Excel, what is the intersection of a row and column called?", options: ["Box", "Cell", "Point", "Grid"], correctAnswer: "Cell" },
+  
+  { id: 10011, class: 9, question: "What is the default file extension for Excel spreadsheets?", options: [".xls", ".xlsx", ".csv", ".txt"], correctAnswer: ".xlsx" },
+  
+  { id: 10012, class: 9, question: "Which symbol is used to start a formula in Excel?", options: ["#", "=", "@", "$"], correctAnswer: "=" },
+  
+  { id: 10013, class: 9, question: "What feature automatically fills a series of data?", options: ["AutoSum", "AutoFill", "AutoComplete", "AutoFormat"], correctAnswer: "AutoFill" },
+  
+  { id: 10014, class: 9, question: "Which function calculates the average of numbers in Excel?", options: ["SUM", "AVERAGE", "COUNT", "MAX"], correctAnswer: "AVERAGE" },
+  
+  { id: 10015, class: 9, question: "What is the term for a collection of worksheets in Excel?", options: ["Workbook", "Document", "Folder", "File"], correctAnswer: "Workbook" },
+  
+  { id: 10016, class: 9, question: "Which feature helps organize data in ascending or descending order?", options: ["Filter", "Sort", "Arrange", "Group"], correctAnswer: "Sort" },
+  
+  { id: 10017, class: 9, question: "What is the maximum number of columns in Excel 2019?", options: ["16,384", "1,048,576", "1,000,000", "100,000"], correctAnswer: "16,384" },
+  
+  { id: 10018, class: 9, question: "Which function counts the number of cells containing numbers?", options: ["COUNT", "SUM", "COUNTA", "COUNTIF"], correctAnswer: "COUNT" },
+  
+  { id: 10019, class: 9, question: "What is the name of the bar above the ribbon that shows file operations?", options: ["Menu Bar", "Title Bar", "Quick Access Toolbar", "Status Bar"], correctAnswer: "Quick Access Toolbar" },
+  
+  { id: 10020, class: 9, question: "Which feature in Word creates a list of contents automatically?", options: ["Index", "Table of Contents", "Bibliography", "References"], correctAnswer: "Table of Contents" },
+  
+  { id: 10021, class: 9, question: "What is the purpose of the 'Format Painter' tool?", options: ["Draw shapes", "Copy formatting", "Paint pictures", "Change colors"], correctAnswer: "Copy formatting" },
+  
+  { id: 10022, class: 9, question: "Which view in Word shows how the document will look when printed?", options: ["Draft", "Web Layout", "Print Layout", "Outline"], correctAnswer: "Print Layout" },
+  
+  { id: 10023, class: 9, question: "What is the purpose of the 'Merge & Center' feature in Excel?", options: ["Combine cells", "Split cells", "Delete cells", "Hide cells"], correctAnswer: "Combine cells" },
+  
+  { id: 10024, class: 9, question: "Which PowerPoint view shows speaker notes?", options: ["Normal", "Outline", "Notes Page", "Reading"], correctAnswer: "Notes Page" },
+  
+  { id: 10025, class: 9, question: "What is the purpose of a pivot table in Excel?", options: ["Format data", "Summarize data", "Delete data", "Hide data"], correctAnswer: "Summarize data" },
+  
+  { id: 10026, class: 9, question: "Which feature in Word automatically corrects spelling mistakes as you type?", options: ["AutoCorrect", "SpellCheck", "Grammar Check", "ProofRead"], correctAnswer: "AutoCorrect" },
+  
+  { id: 10027, class: 9, question: "What does the '$' symbol mean in Excel cell references?", options: ["Currency", "Absolute reference", "Percentage", "Decimal"], correctAnswer: "Absolute reference" },
+  
+  { id: 10028, class: 9, question: "Which PowerPoint feature allows you to record narration?", options: ["Audio", "Record Slide Show", "Voice", "Narrate"], correctAnswer: "Record Slide Show" },
+  
+  { id: 10029, class: 9, question: "What is the default orientation of a Word document?", options: ["Portrait", "Landscape", "Square", "Custom"], correctAnswer: "Portrait" },
+  
+  { id: 10030, class: 9, question: "Which Excel function finds the largest value in a range?", options: ["LARGE", "MAX", "TOP", "HIGHEST"], correctAnswer: "MAX" },
+  
+  { id: 10031, class: 9, question: "What is the purpose of 'Smart Art' in Microsoft Office?", options: ["Draw shapes", "Create diagrams", "Insert pictures", "Add effects"], correctAnswer: "Create diagrams" },
+  
+  { id: 10032, class: 9, question: "Which feature allows you to combine mail with a recipient list?", options: ["Mail Connect", "Mail Merge", "Mail Link", "Mail Join"], correctAnswer: "Mail Merge" },
+  
+  { id: 10033, class: 9, question: "What is the purpose of 'Guidelines' in PowerPoint?", options: ["Draw lines", "Align objects", "Create borders", "Add effects"], correctAnswer: "Align objects" },
+  
+  { id: 10034, class: 9, question: "Which Excel feature removes duplicate values?", options: ["Remove Duplicates", "Filter", "Sort", "Clean"], correctAnswer: "Remove Duplicates" },
+  
+  { id: 10035, class: 9, question: "What is the purpose of 'Styles' in Word?", options: ["Format text consistently", "Add pictures", "Insert tables", "Create charts"], correctAnswer: "Format text consistently" },
+  
+  { id: 10036, class: 9, question: "Which PowerPoint feature helps maintain consistent design?", options: ["Theme", "Template", "Master", "Slide Master"], correctAnswer: "Slide Master" },
+  
+  { id: 10037, class: 9, question: "What is the purpose of 'Conditional Formatting' in Excel?", options: ["Format based on conditions", "Add colors", "Change fonts", "Insert borders"], correctAnswer: "Format based on conditions" },
+  
+  { id: 10038, class: 9, question: "Which Word feature creates a table of figures?", options: ["Insert Table", "List Figures", "Caption", "Table of Figures"], correctAnswer: "Table of Figures" },
+  
+  { id: 10039, class: 9, question: "What is the purpose of 'Charts' in Excel?", options: ["Store data", "Visualize data", "Delete data", "Hide data"], correctAnswer: "Visualize data" },
+  
+  { id: 10040, class: 9, question: "Which PowerPoint feature allows automatic slide advancement?", options: ["Timing", "Animation", "Transition", "Auto Advance"], correctAnswer: "Timing" },
+  
+  { id: 10041, class: 9, question: "What is the purpose of 'Track Changes' in Word?", options: ["Record edits", "Count words", "Check spelling", "Format text"], correctAnswer: "Record edits" },
+  
+  { id: 10042, class: 9, question: "Which Excel function counts cells that meet specific criteria?", options: ["COUNT", "COUNTA", "COUNTIF", "SUM"], correctAnswer: "COUNTIF" },
+  
+  { id: 10043, class: 9, question: "What is the purpose of 'Sections' in PowerPoint?", options: ["Divide presentation", "Add animation", "Insert pictures", "Change design"], correctAnswer: "Divide presentation" },
+  
+  { id: 10044, class: 9, question: "Which Word feature creates alphabetical list of terms?", options: ["Index", "Glossary", "Bibliography", "Table of Contents"], correctAnswer: "Index" },
+  
+  { id: 10045, class: 9, question: "What is the purpose of 'Freeze Panes' in Excel?", options: ["Lock cells", "Delete rows", "Hide columns", "Sort data"], correctAnswer: "Lock cells" },
+  
+  { id: 10046, class: 9, question: "Which PowerPoint feature creates a photo album?", options: ["Photo Insert", "Photo Collection", "Photo Album", "Picture Gallery"], correctAnswer: "Photo Album" },
+  
+  { id: 10047, class: 9, question: "What is the purpose of 'Headers and Footers' in Word?", options: ["Add page information", "Format text", "Insert pictures", "Create tables"], correctAnswer: "Add page information" },
+  
+  { id: 10048, class: 9, question: "Which Excel feature creates a visual representation of data rules?", options: ["Charts", "Graphs", "Data Bars", "Sparklines"], correctAnswer: "Data Bars" },
+  
+  { id: 10049, class: 9, question: "What is the purpose of 'Rehearse Timings' in PowerPoint?", options: ["Practice presentation", "Add animation", "Record audio", "Change design"], correctAnswer: "Practice presentation" },
+
   // =================== Class 10 Questions (IT - 402 Part B Topics) =================== 
   { id: 41, class: 10, question: "Which of the following is a database management system?", options: ["MS Excel", "MS Access", "MS Word", "MS Paint"], correctAnswer: "MS Access" },
   { id: 42, class: 10, question: "Which SQL command is used to delete a table?", options: ["DELETE TABLE", "REMOVE TABLE", "DROP TABLE", "ERASE TABLE"], correctAnswer: "DROP TABLE" },
@@ -133,26 +232,7 @@ const questions: Question[] = [
   { id: 45, class: 10, question: "What is the shortcut key to save a document in LibreOffice?", options: ["Ctrl + P", "Ctrl + S", "Ctrl + N", "Ctrl + O"], correctAnswer: "Ctrl + S" },
   { id: 46, class: 10, question: "Which of the following file extensions is used for a spreadsheet?", options: [".docx", ".pptx", ".xlsx", ".html"], correctAnswer: ".xlsx" },
   { id: 47, class: 10, question: "Which software is used for creating invoices and reports?", options: ["MS Word", "Tally", "MS Excel", "MS Access"], correctAnswer: "Tally" },
-  { id: 56, class: 9, question: "What is the primary function of an operating system?", options: ["To manage computer hardware", "To store data", "To display output", "To protect data"], correctAnswer: "To manage computer hardware" },
-  { id: 67, class: 9, question: "What is HTML used for?", options: ["To design databases", "To design web pages", "To manage network traffic", "To process data"], correctAnswer: "To design web pages" },
-  { id: 78, class: 9, question: "Which of the following is used to create tables in HTML?", options: ["<table>", "<ul>", "<div>", "<form>"], correctAnswer: "<table>" },
-  { id: 97, class: 9, question: "What does the <b> tag do in HTML?", options: ["Makes text bold", "Makes text italic", "Creates a line break", "Adds a link"], correctAnswer: "Makes text bold" },
-  { id: 79, class: 9, question: "Which of the following is used to define a hyperlink in HTML?", options: ["<href>", "<a>", "<link>", "<url>"], correctAnswer: "<a>" },
-  { id: 56, class: 9, question: "Which of the following is the correct way to insert an image in HTML?", options: ["<img src='image.jpg'>", "<image src='image.jpg'>", "<picture src='image.jpg'>", "<img href='image.jpg'>"], correctAnswer: "<img src='image.jpg'>" },
-  { id: 110, class: 9, question: "What does CSS stand for?", options: ["Cascading Style Sheets", "Coded Style Sheets", "Computer Style Sheets", "Content Style Sheets"], correctAnswer: "Cascading Style Sheets" },
-  { id: 111, class: 9, question: "Which of the following is used to style HTML elements?", options: ["CSS", "JavaScript", "HTML", "PHP"], correctAnswer: "CSS" },
-  { id: 1123, class: 9, question: "Which of the following is a valid CSS syntax?", options: ["color: red;", "color: red;", "red: color;", "red color:;"], correctAnswer: "color: red;" },
-  { id: 456, class: 9, question: "Which of the following is used to create a form in HTML?", options: ["<form>", "<input>", "<table>", "<button>"], correctAnswer: "<form>" },
-  { id: 6776, class: 9, question: "Which of the following is used to apply background color to a webpage?", options: ["bgcolor", "background-color", "background", "color"], correctAnswer: "background-color" },
-  { id: 9473, class: 9, question: "Which of the following HTML tags is used to create a list of items?", options: ["<ul>", "<ol>", "<li>", "<dl>"], correctAnswer: "<ul>" },
-  { id: 89898, class: 9, question: "What is a 'domain name'?", options: ["A unique identifier for a website", "A type of security certificate", "A type of website content", "A special address for a website"], correctAnswer: "A unique identifier for a website" },
-  { id: 7086, class: 9, question: "Which protocol is used for sending emails?", options: ["FTP", "SMTP", "HTTP", "IMAP"], correctAnswer: "SMTP" },
-  { id: 98493, class: 9, question: "What does DNS stand for?", options: ["Domain Name System", "Data Network Service", "Domain Network Service", "Data Name System"], correctAnswer: "Domain Name System" },
-  { id: 79960, class: 9, question: "Which of the following is used to store data in a web server?", options: ["Hard Disk", "Database", "RAM", "ROM"], correctAnswer: "Database" },
-  { id: 6909, class: 9, question: "What is a 'URL'?", options: ["User Resource Locator", "Uniform Resource Locator", "Universal Resource Locator", "Uniform Retrieval Locator"], correctAnswer: "Uniform Resource Locator" },
-  { id: 589303, class: 9, question: "Which of the following HTML tags is used to create a paragraph?", options: ["<p>", "<pre>", "<div>", "<span>"], correctAnswer: "<p>" },
-  { id: 4590, class: 9, question: "What is the primary purpose of a web browser?", options: ["To create websites", "To search for files", "To display web pages", "To create databases"], correctAnswer: "To display web pages" },
-  { id: 5908503998, class: 9, question: "Which of the following is a part of a URL?", options: ["Protocol", "Domain name", "Path", "All of the above"], correctAnswer: "All of the above" },
+
 
   // =================== Class 10 Questions (IT - 402 Part B Topics) =================== 
 { id: 48, class: 10, question: "Which of the following is an example of cloud computing?", options: ["Google Drive", "MS Excel", "MS Access", "MS Word"], correctAnswer: "Google Drive" },
